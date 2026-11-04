@@ -1,0 +1,14 @@
+{
+  "name": "rakestra-app-engineering",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rakestra App: product documentation and reproducible engineering excerpts.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.12.0"
+  },
+  "scripts": {
+    "test": "node --test tests/secure-session.test.ts tests/contracts.test.ts",
+    "demo": "node examples/proposal-contract.ts"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "captured_on": "2026-11-04",
+  "scope": "Selected modules, not the entire mobile application or API.",
+  "files": [
+    {
+      "source": "src/services/secureSessionPolicy.ts",
+      "published": "src/secureSessionPolicy.ts",
+      "original_sha256": "110083565e7ed385261dafb1eab78533a2ea1e5ea944c528df63f69425e6e5b7",
+      "extracted_sha256": "9070c1de2786dcd75d30071359d496650693dce54c69348b9982fcfafadfd54c",
+      "adaptation": "Relative imports receive .ts extensions for native Node.js execution. Logic unchanged."
+    },
+    {
+      "source": "src/services/publicMatchHistoryData.ts",
+      "published": "src/publicMatchHistoryData.ts",
+      "original_sha256": "405b171515fb9d77b567548214a35b118cd1d9b42f1c30485455e3a3d4342747",
+      "extracted_sha256": "15709ed9f48a7582be9ec4d0b69f227c93df5e40a1dde604c14a8a3537d7f366",
+      "adaptation": "Relative imports receive .ts extensions for native Node.js execution. Logic unchanged."
+    },
+    {
+      "source": "src/services/athleteProfileReadData.ts",
+      "published": "src/athleteProfileReadData.ts",
+      "original_sha256": "a68f4843bc42078ebcbb9cfd99d78302e1162ad857f0b8b8a761fdd7d6ad57e8",
+      "extracted_sha256": "56af2eb05584736d015e5465bc8782900d3e1f7043ff9712a73a75d1ccd993fd",
+      "adaptation": "Relative imports receive .ts extensions for native Node.js execution. Logic unchanged."
+    },
+    {
+      "source": "src/services/matchCreationData.ts",
+      "published": "src/matchCreationData.ts",
+      "original_sha256": "9282bc2383de73f28a4995f3c9a5646ce8a0ea22ccb94e9e9032c9883346c38d",
+      "extracted_sha256": "a6620e99593ca0768f0111efb99101a0c9ee25768c70a5eb561598fa80c49ebe",
+      "adaptation": "Relative imports receive .ts extensions for native Node.js execution. Logic unchanged."
+    },
+    {
+      "source": "src/services/matchProposalData.ts",
+      "published": "src/matchProposalData.ts",
+      "original_sha256": "92bf0fb4635a93a43cd0f2122b8814c26ef0ab61e5968d231474fa681b7e58b4",
+      "extracted_sha256": "c7ceb89df25110d5d662330b062e02e12306321b2a210b38442ae322b6d84422",
+      "adaptation": "Relative imports receive .ts extensions for native Node.js execution. Logic unchanged."
+    },
+    {
+      "source": "shared/match-acceptance-notification.ts",
+      "published": "src/match-acceptance-notification.ts",
+      "original_sha256": "dfe704193e5f25031eb6b54931a25ee4a90a1ab3e144dd741c46c1e1cb786835",
+      "extracted_sha256": "9535ab6496077c30604fe778c55d7588a554380da7337b32cae413890dd7e2d9",
+      "adaptation": "Relative imports receive .ts extensions for native Node.js execution. Logic unchanged."
+    },
+    {
+      "source": "shared/match-rejection-notification.ts",
+      "published": "src/match-rejection-notification.ts",
+      "original_sha256": "da04cce4b56a39a9ec77ef000fc8a03af4918a14442562c70575e4cbc861187e",
+      "extracted_sha256": "d2f8687507e418909a5f8cc044500584b303794bbec488ed2e3bc4dff60f261d",
+      "adaptation": "Relative imports receive .ts extensions for native Node.js execution. Logic unchanged."
+    },
+    {
+      "source": "src/services/secureSessionPolicy.test.ts",
+      "published": "tests/secure-session.test.ts",
+      "original_sha256": "2ede8f7b8b55488628d8afcd8e03721b6f356d94cb1a3ce288a6f40c3bdf6f11",
+      "adaptation": "Import path only; existing behavioral tests preserved."
+    }
+  ]
+}
