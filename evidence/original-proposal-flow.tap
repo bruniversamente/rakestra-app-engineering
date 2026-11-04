@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: proposal and scored attempts coexist without exposing either through the wrong recovery flow
+ok 1 - proposal and scored attempts coexist without exposing either through the wrong recovery flow
+  ---
+  duration_ms: 131.6352
+  type: 'test'
+  ...
+# Subtest: lost response survives module restart and recovers the same pending invitation without creation or score confirmation
+ok 2 - lost response survives module restart and recovers the same pending invitation without creation or score confirmation
+  ---
+  duration_ms: 95.096
+  type: 'test'
+  ...
+# Subtest: concurrent reservations and sends share one durable key and one original create
+ok 3 - concurrent reservations and sends share one durable key and one original create
+  ---
+  duration_ms: 38.0887
+  type: 'test'
+  ...
+# Subtest: failure before commit reuses the exact original key and body on an explicit retry
+ok 4 - failure before commit reuses the exact original key and body on an explicit retry
+  ---
+  duration_ms: 41.8045
+  type: 'test'
+  ...
+# Subtest: missing receipt lookup is read-only, and a deleted known invitation is never recreated
+ok 5 - missing receipt lookup is read-only, and a deleted known invitation is never recreated
+  ---
+  duration_ms: 35.0661
+  type: 'test'
+  ...
+# Subtest: storage failures and corrupt entries block traffic rather than losing the original identity
+ok 6 - storage failures and corrupt entries block traffic rather than losing the original identity
+  ---
+  duration_ms: 33.8412
+  type: 'test'
+  ...
+# Subtest: failed receipt persistence keeps the attempt recoverable and offers no second creation
+ok 7 - failed receipt persistence keeps the attempt recoverable and offers no second creation
+  ---
+  duration_ms: 38.8705
+  type: 'test'
+  ...
+# Subtest: receipt actor, key and version and actual match identity must be checked before acknowledging
+ok 8 - receipt actor, key and version and actual match identity must be checked before acknowledging
+  ---
+  duration_ms: 222.8365
+  type: 'test'
+  ...
+# Subtest: late account/screen change preserves a committed identity without returning it to the old screen
+ok 9 - late account/screen change preserves a committed identity without returning it to the old screen
+  ---
+  duration_ms: 29.6654
+  type: 'test'
+  ...
+# Subtest: recovery reads current invitation state without restoring stale proposal details or confirming a score
+ok 10 - recovery reads current invitation state without restoring stale proposal details or confirming a score
+  ---
+  duration_ms: 36.7909
+  type: 'test'
+  ...
+# Subtest: proposal validation rejects score data, alias IDs, foreign actors and oversized snapshots
+ok 11 - proposal validation rejects score data, alias IDs, foreign actors and oversized snapshots
+  ---
+  duration_ms: 26.7819
+  type: 'test'
+  ...
+# Subtest: proposal recovery remains available after its original time, while preserving its body and key
+ok 12 - proposal recovery remains available after its original time, while preserving its body and key
+  ---
+  duration_ms: 29.9473
+  type: 'test'
+  ...
+# Subtest: actual submit hook blocks immediate duplicate taps and invalidates work on account change or unmount
+ok 13 - actual submit hook blocks immediate duplicate taps and invalidates work on account change or unmount
+  ---
+  duration_ms: 38.6363
+  type: 'test'
+  ...
+# Subtest: pending review is read-only and resolves original participants before an explicit same-key resend
+ok 14 - pending review is read-only and resolves original participants before an explicit same-key resend
+  ---
+  duration_ms: 45.7794
+  type: 'test'
+  ...
+# Subtest: a changed stored body or mismatched participant profile cannot resume a reviewed invitation
+ok 15 - a changed stored body or mismatched participant profile cannot resume a reviewed invitation
+  ---
+  duration_ms: 31.4616
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1092.0698

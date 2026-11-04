@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-04",
+  "runtime": "Node.js 24.14.0",
+  "command": "npm test",
+  "passed": 17,
+  "failed": 0,
+  "scope": {
+    "secure_session_policy_tests": 8,
+    "proposal_receipt_and_presentation_tests": 9
+  },
+  "not_covered": [
+    "Full mobile app on a device",
+    "API endpoints and database transactions",
+    "Push delivery",
+    "Payment operations",
+    "Performance benchmarks",
+    "Static TypeScript type checking"
+  ],
+  "fixtures": "Fictitious identities and controlled storage adapters. No external service or real account is used.",
+  "additional_original_suite": {
+    "command": "node --test --test-reporter=tap scripts/match-proposal-creation.test.cjs",
+    "passed": 15,
+    "failed": 0,
+    "scope": "Original client proposal service, with controlled API and storage. The entire mobile app and database transaction are not exercised.",
+    "report": "original-proposal-flow.tap"
+  }
+}
